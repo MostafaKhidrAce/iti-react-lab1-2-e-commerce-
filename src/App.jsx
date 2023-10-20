@@ -7,11 +7,11 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 // my components
 import Counter from './component/counter/Counter'
-import Footer from './component/Footer'
-import Header from './component/Header'
-import Products from './component/Products';
-import About from './component/About';
-import ProductDetails from './component/ProductDetails';
+import Footer from './component/footer/Footer'
+import Header from './component/header/Header'
+import Products from './component/home-page/Products';
+import About from './component/about-page/About';
+import ProductDetails from './component/product-details-page/ProductDetails';
 
 
 
