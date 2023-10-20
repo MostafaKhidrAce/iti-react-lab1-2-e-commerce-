@@ -6,3 +6,10 @@
   padding: 100px 0;
   gap: 10px;
 }
+
+.no-products-found {
+  font-size: 18px;
+  color: #888;
+  margin: 20px 0;
+  text-align: center;
+}

@@ -2,6 +2,8 @@ import { useParams } from 'react-router-dom';
 import React, { useState, useEffect } from 'react';
 import './productDetails.css';
 import Rating from 'react-rating-stars-component';
+import { ClipLoader } from "react-spinners"; 
+
 
 const ProductDetails = () => {
     const { id } = useParams();
@@ -25,7 +27,11 @@ const ProductDetails = () => {
     return (
         <div className="product-details-container">
             {loading ? (
-                <p className="loading">Loading...</p>
+                  <ClipLoader
+                  color="#00BFFF"
+                  loading={loading}
+                  size={100}
+              />
             ) : product ? (
                 <div className="product-details">
                     <div className="product-image">
