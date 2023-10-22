@@ -1,7 +1,10 @@
 import './about.css';
+import { useSelector } from 'react-redux';
 
 const About = () => {
+  const count = useSelector((state) => state.counter.value)
   return (
+    <>
 <div className="about-container">
  <div className="about-content">
   <div className="about-img">
@@ -21,6 +24,10 @@ const About = () => {
   </div>
  </div>
 </div>
+<div className="counter-about container">
+<h1>the counter is : {count}</h1>
+ </div>
+</>
   );
 };
 

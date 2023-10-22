@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 85vh;
+  height: 75vh;
 }
 
 .about-content {
@@ -33,4 +33,8 @@ h2 {
 p {
   font-size: 1.25rem;
   margin: 1rem 0;
+}
+
+.counter-about {
+  margin-bottom: 30px;
 }

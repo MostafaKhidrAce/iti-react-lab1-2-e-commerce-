@@ -16,3 +16,12 @@ button {
   padding: 0.5rem 1rem;
   margin: 0.5rem;
 }
+
+input {
+  border-radius: 25px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background-color: rgb(100, 100, 100);
+  color: #fff;
+}
