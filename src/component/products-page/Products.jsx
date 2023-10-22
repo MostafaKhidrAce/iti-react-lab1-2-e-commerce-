@@ -11,11 +11,13 @@ const Products = () => {
   ));
 
   return (
-    <div className="product-list">
+    
       <Loading loading={loading} error={error}>
+        <div className="product-list">
         {productCards}
+        </div>
       </Loading>
-    </div>
+   
   );
 };
 

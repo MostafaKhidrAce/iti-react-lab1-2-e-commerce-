@@ -7,14 +7,14 @@ const Header = () => {
   return (
     <nav>
       <ul>
-        <li>
-          <NavLink  to="/" >
-            HOME
+      <li>
+          <NavLink to="/" >
+            Home
           </NavLink>
         </li>
         <li>
-          <NavLink to="/about" >
-            ABOUT
+          <NavLink  to="/products" >
+          Products
           </NavLink>
         </li>
         <li>

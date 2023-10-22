@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import Rating from 'react-rating-stars-component';
 import useProductDetails from '../../customHooks/useProductDetails';
-import Loading from '../home-page/Loading';
+import Loading from '../products-page/Loading';
 import './productDetails.css';
 
 
