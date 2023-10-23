@@ -1,23 +1,23 @@
-.container {
+.counter.container {
   text-align: center;
 }
 
-h1 {
+.counter h1 {
   font-size: 2rem;
   margin: 1rem 0;
 }
 
-p {
+.counter p {
   font-size: 1.5rem;
 }
 
-button {
+.counter button {
   font-size: 1.2rem;
   padding: 0.5rem 1rem;
   margin: 0.5rem;
 }
 
-input {
+.counter input {
   border-radius: 25px;
   padding: 10px;
   border: none;
